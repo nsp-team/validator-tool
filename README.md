@@ -53,6 +53,7 @@ $result->getMessages();
 后期我会提供一份教程文档使用方式，开发者可以先自定阅读源码。
 
 ## Thanks
-[particle-php/Validator](https://github.com/particle-php/Validator)
+
+[comment]: <> ([particle-php/Validator]&#40;https://github.com/particle-php/Validator&#41;)
 
 [yiisoft/validator](https://github.com/yiisoft/validator)
