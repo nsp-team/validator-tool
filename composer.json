@@ -1,0 +1,26 @@
+{
+    "name": "nsp-team/validator-tool",
+    "description": "Provides tools to validate values",
+    "type": "library",
+    "keywords": [
+        "validator"
+    ],
+    "authors": [
+        {
+            "name": "maoxp",
+            "email": "maoxingpei8686@163.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.3",
+      "ext-mbstring": "*",
+      "ext-json": "*",
+      "ext-ctype": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NspTeam\\Component\\Validator\\": "./src"
+        }
+    }
+}
