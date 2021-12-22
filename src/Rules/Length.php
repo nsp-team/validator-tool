@@ -20,8 +20,8 @@ class Length extends AbstractRule
      * @var array
      */
     protected $messageTemplates = [
-        self::TOO_SHORT => '{{ name }} 太短，长度必须为 {length}} 个字符长度',
-        self::TOO_LONG => '{{ name }} 太长，长度必须为 {length}} 个字符长度',
+        self::TOO_SHORT => '{{ name }} 太短，长度必须为{{ length }}个字符长度',
+        self::TOO_LONG => '{{ name }} 太长，长度必须为{{ length }}个字符长度',
     ];
 
     /**
